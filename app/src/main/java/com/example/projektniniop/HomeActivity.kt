@@ -3,6 +3,7 @@ package com.example.projektniniop
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeActivity : AppCompatActivity() {
@@ -12,6 +13,12 @@ class HomeActivity : AppCompatActivity() {
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigation)
         bottomNavigationView.selectedItemId = R.id.bottom_home
+
+        val buttonForm = findViewById<Button>(R.id.button_form)
+        buttonForm.setOnClickListener(){
+            val intent = Intent(this, AddActivity::class.java)
+            startActivity(intent)
+        }
 
         bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
