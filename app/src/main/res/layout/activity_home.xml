@@ -33,15 +33,16 @@
         android:layout_width="792dp"
         android:layout_height="1297dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/homepage_background"
-        tools:layout_editor_absoluteX="-249dp" />
+        app:srcCompat="@drawable/homepage_background" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/naslov"
+        android:text="GNOMATOR"
         android:textColor="@color/white"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +56,7 @@
         android:id="@+id/button_form"
         android:layout_width="348dp"
         android:layout_height="233dp"
-        android:text="@string/podnesi_narudzbu"
+        android:text="Podnesi narudžbu"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
