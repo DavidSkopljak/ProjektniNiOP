@@ -28,7 +28,6 @@ class MyDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NA
         db.execSQL("DROP TABLE IF EXISTS $TABLE_NAME")
         onCreate(db)
     }
-
     fun addGnom(gnom_name: String?, gnom_price: Int) {
         val db = this.writableDatabase
         val cv = ContentValues()

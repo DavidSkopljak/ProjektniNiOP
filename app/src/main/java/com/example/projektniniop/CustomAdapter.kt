@@ -10,7 +10,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.projektniniop.R
 import java.util.ArrayList
 
-class CustomAdapter(private val context: Context, private val gnom_id: ArrayList<*>, private val gnom_name: ArrayList<*>, private val gnom_price: ArrayList<*>) : RecyclerView.Adapter<CustomAdapter.MyViewHolder>() {
+class CustomAdapter(private val context: Context, private val gnom_id: ArrayList<*>, private val gnom_name: ArrayList<*>,
+                    private val gnom_price: ArrayList<*>) : RecyclerView.Adapter<CustomAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val inflater = LayoutInflater.from(context)
