@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name" translatable="false">Gnomator</string>
     <string name="enter_your_name">Enter your name</string>
     <string name="enter_your_price">Enter your price</string>
     <string name="podnesi_narudzbu">Place an order</string>
@@ -10,4 +9,3 @@
     <string name="english">English</string>
 
 </resources>
-

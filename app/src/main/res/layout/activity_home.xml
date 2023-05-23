@@ -56,7 +56,7 @@
         android:id="@+id/button_form"
         android:layout_width="348dp"
         android:layout_height="233dp"
-        android:text="Podnesi narudžbu"
+        android:text="@string/podnesi_narudzbu"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

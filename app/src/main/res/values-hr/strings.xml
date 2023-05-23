@@ -3,10 +3,8 @@
     <string name="enter_your_price">Unesite cijenu</string>
     <string name="enter_your_name">Unesite ime</string>
     <string name="podnesi_narudzbu">Podnesi narudžbu</string>
-
-    <string-array name="languages">
-    <item>Hrvatski</item>
-    <item>Grčki</item>
-    <item>Japanski</item>
-    </string-array>
+    <string name="greek">Grčki</string>
+    <string name="japanese">Japanski</string>
+    <string name="croatian">Hrvatski</string>
+    <string name="english">Engleski</string>
 </resources>

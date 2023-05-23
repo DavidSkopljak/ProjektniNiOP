@@ -51,12 +51,7 @@ class DatabaseActivity : AppCompatActivity() {
             }
         }
         recyclerView = findViewById(R.id.recyclerView)
-        addbtn = findViewById(R.id.addbtn)
 
-        addbtn.setOnClickListener{
-            val intent = Intent(this, AddActivity::class.java)
-            startActivity(intent)
-        }
 
         db = MyDatabaseHelper(this@DatabaseActivity)
 

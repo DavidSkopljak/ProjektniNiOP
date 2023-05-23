@@ -3,4 +3,8 @@
     <string name="enter_your_name">輸入你的名字</string>
     <string name="enter_your_price">輸入您的價格</string>
     <string name="podnesi_narudzbu">下訂單</string>
+    <string name="greek">希臘語</string>
+    <string name="english">英語</string>
+    <string name="japanese">日本人</string>
+    <string name="croatian">克羅地亞語</string>
 </resources>

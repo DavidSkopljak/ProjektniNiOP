@@ -3,4 +3,8 @@
     <string name="enter_your_name">Εισάγετε το όνομά σας</string>
     <string name="enter_your_price">Εισαγάγετε την τιμή σας</string>
     <string name="podnesi_narudzbu">Κάνετε μια παραγγελία</string>
+    <string name="croatian">Κροατία</string>
+    <string name="greek">Ελληνικά</string>
+    <string name="japanese">Ιαπωνικά</string>
+    <string name="english">Αγγλικά</string>
 </resources>
