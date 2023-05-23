@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Settings"
-        android:textColor="@color/lavender"
+        android:textColor="@color/red"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -39,4 +39,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_menu"
         tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/languages" />
 </androidx.constraintlayout.widget.ConstraintLayout>

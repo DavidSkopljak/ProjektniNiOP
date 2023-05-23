@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Gnomator</string>
+    <string name="app_name" translatable="false">Gnomator</string>
+    <string name="enter_your_name">En</string>
+    <string name="enter_your_price">Enter your price</string>
+    <string name="podnesi_narudzbu">Place an order</string>
+    <string name="naslov" translatable="false">GNOMATOR</string>
+    <string-array name="languages">
+    <item>Hrvatski</item>
+    <item>Grčki</item>
+    <item>Japanski</item>
+    </string-array>
+    <!-- Add more languages as needed -->
+
 </resources>
+

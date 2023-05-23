@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_your_name">Εισάγετε το όνομά σας</string>
+    <string name="enter_your_price">Εισαγάγετε την τιμή σας</string>
+    <string name="podnesi_narudzbu">Κάνετε μια παραγγελία</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_your_name">輸入你的名字</string>
+    <string name="enter_your_price">輸入您的價格</string>
+    <string name="podnesi_narudzbu">下訂單</string>
+</resources>

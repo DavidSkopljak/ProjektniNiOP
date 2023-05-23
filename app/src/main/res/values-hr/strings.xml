@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_your_price">Unesite cijenu</string>
+    <string name="enter_your_name">Unesite ime</string>
+    <string name="podnesi_narudzbu">Podnesi narudžbu</string>
+
+    <string-array name="languages">
+    <item>Hrvatski</item>
+    <item>Grčki</item>
+    <item>Japanski</item>
+    </string-array>
+</resources>
